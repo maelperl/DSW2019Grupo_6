@@ -1,0 +1,7 @@
+label, select{
+    display:block;
+    margin: 5px;
+}
+select{
+    margin-bottom: 20px;
+}

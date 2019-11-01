@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lecturas</title>
+</head>
+<body>
+    <header>
+        <img src="IMG/UNAD.png" alt="logo UNAD" class="logoUnad">
+        <h1>Diseño de sitios WEB <span>#Lecturas</span></h1>
+        <section>
+        <label for="">
+            <img id="menu" src="IMG/MENU.png" alt="" class="imagenMenu">
+        </label>
+        <div id="fondoMenu">        
+            <nav >
+                <span id="btnCerrar" ><img src="img/close.svg" class="btnCerrar"></span>
+                <a href="index.html">Inicio</a>
+                            <a href="lecturas.html">Lecturas</a>
+                            <span>Multimedia</span>                              
+                                    <a href="m_gitHub.html" class="submenu">-GitHub</a>
+                                    <a href="m_HTML.html" class="submenu">-HTML</a>
+                                    <a href="m_CSS.html" class="submenu">-CSS</a>                             
+                            <a href="#Actividades">Actividades</a>
+                            <a href="autores.html">Autores</a>
+            </nav>
+        </div>
+        </section>
+    </header>
+    <div id="ventanaEmergente">
+            <span id="btnCerrarEmergente" ><img src="img/close.svg" class="btnCerrar"></span>
+            <iframe id="frameLectura" src="" frameborder="0"></iframe>
+        </div>
+        <section id="portada">
+            <section>
+                    <h2>Manual Básico de HTML</h2>
+                    <img src="img/lecturaCSS.jpg" alt="lectura CSS" class="imgLectura">
+                    <p>
+                        Esta lectura es la que compartió el compañero Mauricio.  El botón ya está funcional, la idea es que acá se coloque una breve
+                        descripción de lo que trata la lectura y se ponga una imágen preferiblemente creative comoons.
+                    </p>
+                    <input type="button" value="Leer Documento" data-lectura="http://www.bolivia-internet.com/html/manualhtml.pdf" onclick="lectura(this)">
+            </section>
+            <section>
+                    <h2>Conceptos Básicos de CSS</h2>
+                    <img src="img/lecturaCSS.jpg" alt="lectura CSS" class="imgLectura">
+                    <p>
+                        Esta lectura ya está funcional también, la imágen que le voy a dejar es la actual. Sólo le falta una breve reseña.
+                    </p>
+                    <input type="button" value="Leer Documento" data-lectura="http://www.cs.us.es/blogs/bd2012/files/2012/09/ConceptosB%C3%A1sicosDeCSS.pdf" onclick="lectura(this)">
+            </section>
+            <section>
+                    <h2>Aquí se pone el título de Lectura 3</h2>
+                    <img src="img/lecturaCSS.jpg" alt="lectura CSS" class="imgLectura">
+                    <p>
+                        Acá se colocaría la reseña correspondiente a la lectura sugerida.
+                    </p>
+                    <input type="button" value="Leer Documento" data-lectura="" onclick="lectura(this)">
+            </section>
+            <section>
+                    <h2>Aquí se pone el título de Lectura 4</h2>
+                    <img src="img/lecturaCSS.jpg" alt="lectura CSS" class="imgLectura">
+                    <p>
+                            Acá se colocaría la reseña correspondiente a la lectura sugerida.
+                    </p>
+                    <input type="button" value="Leer Documento" data-lectura="" onclick="lectura(this)">
+            </section>
+            <section>
+                <h2>Aquí se pone el título de Lectura 5</h2>
+                <img src="img/lecturaCSS.jpg" alt="lectura CSS" class="imgLectura">
+                <p>
+                        Acá se colocaría la reseña correspondiente a la lectura sugerida.
+                </p>
+                <input type="button" value="Leer Documento" data-lectura="" onclick="lectura(this)">
+            </section>
+
+    </section>
+    <aside>
+        <img src="img/twitter-rise.gif" title="Mira lo que pasa en twitter">
+    </aside> 
+    <script src="js/javaScript.js">   
+    </script> 
+</body>
+</html>
