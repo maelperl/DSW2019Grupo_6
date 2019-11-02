@@ -8,11 +8,12 @@
     <title>Actividad cuatro</title>
 </head>
 <body>
-    <H1>¿Qué tanto has aprendido de GitHub?</H1>
-   
-    <form>
+    <fieldset id="marco">
+        <H1>¿Qué tanto has aprendido de GitHub?</H1>
+    </fieldset>
+<form>
         <fieldset>
-            <legend>selecciona la respuesta correcta.</legend>
+            <legend>Selecciona la respuesta correcta.</legend>
 
                 <label for="cmbPregunta1">
                    1.  ¿Que es Github?:
@@ -70,7 +71,7 @@
                     </select>
                         
                     
-                    <input type="button" value="Haz clic aquí para Calificar" onclick="calificarActividad()">
+                    <input id="boton" type="button" value="Haz clic aquí para Calificar" onclick="calificarActividad()">
         </fieldset>
         <script>
             function calificarActividad(){
