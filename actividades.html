@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Lecturas</title>
+    <title>Actividades</title>
 </head>
 <body>
     <header>
         <img src="IMG/UNAD.png" alt="logo UNAD" class="logoUnad">
-        <h1>Diseño de sitios WEB <span>#Autores</span></h1>
+        <h1>Diseño de sitios WEB <span>#Actividades</span></h1>
         <section>
         <label for="">
             <img id="menu" src="IMG/MENU.png" alt="" class="imagenMenu">
@@ -24,7 +24,7 @@
                                     <a href="m_gitHub.html" class="submenu">-GitHub</a>
                                     <a href="m_HTML.html" class="submenu">-HTML</a>
                                     <a href="m_CSS.html" class="submenu">-CSS</a>                             
-                            <a href="#Actividades">Actividades</a>
+                            <a href="actividades.html">Actividades</a>
                             <a href="autores.html">Autores</a>
             </nav>
         </div>
@@ -36,33 +36,60 @@
         </div>
         <section id="portada">
             <section>
-                    <h2>Mauricio Andrés Escobar</h2>
-                    <img src="img/perfilEstudiante.jpg" alt="lectura CSS" class="perfilEstudiante">
-
+                    <h2>Acctividad 1</h2>
+                    <img src="img/lecturaCSS.jpg" alt="lectura CSS" class="imgLectura">
                     <p>
-                        Soy estudiante de ingeniería de sistemas, me gusta el cine y la música, además de crear webs...
-                    </p>     
+                        texto Descriptivo de la actividad uno
+                    </p>
+                    <input type="button" value="Te reto, Evalúate!!!" data-lectura="actividad_1.html" onclick="lectura(this)">
             </section>
             <section>
-                <h2>Emiliano Antonio Poloche</h2>
-                <img src="img/perfilEstudiante.jpg" alt="lectura CSS" class="perfilEstudiante">
-
+                    <h2>Acctividad 2</h2>
+                    <img src="img/lecturaCSS.jpg" alt="lectura CSS" class="imgLectura">
+                    <p>
+                        texto Descriptivo de la actividad dos
+                    </p>
+                    <input type="button" value="Te reto, Evalúate!!!" data-lectura="actividad_2.html" onclick="lectura(this)">
+            </section>
+            <section>
+                    <h2>Acctividad  3</h2>
+                    <img src="img/lecturaCSS.jpg" alt="lectura CSS" class="imgLectura">
+                    <p>
+                        texto Descriptivo de la actividad tres
+                    </p>
+                    <input type="button" value="Te reto, Evalúate!!!" data-lectura="actividad_3.html" onclick="lectura(this)">
+            </section>
+            <section>
+                    <h2>Acctividad 4</h2>
+                    <img src="img/lecturaCSS.jpg" alt="lectura CSS" class="imgLectura">
+                    <p>
+                        texto Descriptivo de la actividad cuatro
+                    </p>
+                    <input type="button" value="Te reto, Evalúate!!!" data-lectura="actividad_4.html" onclick="lectura(this)">
+            </section>
+            <section>
+                <h2>Acctividad 5</h2>
+                <img src="img/lecturaCSS.jpg" alt="lectura CSS" class="imgLectura">
                 <p>
-                    Soy estudiante de ingeniería de sistemas, me gusta el cine y la música, además de crear webs...
-                </p>     
-        </section>
-        <section>
-            <h2>Nelson Fabio Espitia Cruz</h2>
-            <img src="img/perfilEstudiante.jpg" alt="lectura CSS" class="perfilEstudiante">
+                    texto Descriptivo de la actividad cinco
+                </p>
+                <input type="button" value="Te reto, Evalúate!!!" data-lectura="actividad_5.html" onclick="lectura(this)">
+            </section>
+            <section>
+                <h2>Acctividad 6</h2>
+                <img src="img/lecturaCSS.jpg" alt="lectura CSS" class="imgLectura">
+                <p>
+                    texto Descriptivo de la actividad seis
+                </p>
+                <input type="button" value="Te reto, Evalúate!!!" data-lectura="actividad_6.html" onclick="lectura(this)">
+            </section>
 
-            <p>
-                Soy estudiante de ingeniería de sistemas, me gusta el cine y la música, además de crear webs...
-            </p>     
     </section>
-    </section>
-    <aside>
-            <img src="img/twitter-rise.gif" title="Mira lo que pasa en twitter">
+    <aside data-lectura="twitter.html" onclick="lectura(this)">
+        <img src="img/twitter-rise.gif" title="Mira lo que pasa en twitter">
     </aside> 
+
+    
     <script src="js/javaScript.js">   
     </script> 
 </body>

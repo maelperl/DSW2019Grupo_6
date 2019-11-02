@@ -165,3 +165,23 @@ h2, p{
     width: 200px;
     height: 100px;
 }
+
+@media screen and (max-width:800px){
+    #portada{
+        flex-direction:column;
+    }
+    
+    h1{font-size: 20px;}
+    h1 span{font-size: 15px;}
+    .logoUnad{width:100px ;}
+    .perfilEstudiante, .logos{
+        height:30%;
+        width: auto;
+    }
+    .logoM{
+        width: 40px !important;
+    }
+    #portada > section{
+        width: 98%;
+    }
+}
